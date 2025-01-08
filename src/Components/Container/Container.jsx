@@ -1,8 +1,8 @@
 import { ContainerStyled } from "./Container.Styled";
 
-export const Container = ({ children, width }) => {
+export const Container = ({ height, width, bgcolor, className, children }) => {
     return (
-        <ContainerStyled width={width}>
+        <ContainerStyled height={height} width={width} $bgcolor={bgcolor} className={className}>
             {children}
         </ContainerStyled>
     )
