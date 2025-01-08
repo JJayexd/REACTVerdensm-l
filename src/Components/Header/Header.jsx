@@ -6,7 +6,9 @@ export const Header = () => {
     return (
         <HeaderStyled>
             <img src={Logo} alt="SDG Logo" />
-            <Nav />
+            <Nav>
+                
+            </Nav>
         </HeaderStyled>
     )
 }
